@@ -4,7 +4,7 @@ const Header = () => {
 return (
     <motion.div>
         <motion.nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <motion.img src= "public\logo.jpg" />
+            <motion.img src= "/logo.jpg" className= "rounded-circle ms-3 me-3" width= "80px" height= "80px" />
             <motion.button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <motion.span class="navbar-toggler-icon"></motion.span>
             </motion.button>
